@@ -23,4 +23,4 @@ local GameList = {
     [10526853622] = "Deep%20Fishing/loader.luau"
 }
 
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/QuartyzUwU/scripts/main/%s"):format(GameList[GameId])))()
+loadstring(game:HttpGet(string.format("https://raw.githubusercontent.com/QuartyzUwU/scripts/main/%s", GameList[GameId])))()
