@@ -19,7 +19,8 @@ end
 local GameId = game.GameId
 
 local GameList = {
-    [994732206] = "Blox%20Fruits/loader.luau"
+    [994732206] = "Blox%20Fruits/loader.luau",
+    [10526853622] = "Deep%20Fishing/loader.luau"
 }
 
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/QuartyzUwU/scripts/main/%s"):format(GameList[GameId])))()
