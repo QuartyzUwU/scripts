@@ -1,4 +1,4 @@
-if getgenv().license_key then
+
     local mode = getgenv().Mode
 
     if mode == "OneClick" then
@@ -7,6 +7,5 @@ if getgenv().license_key then
     end
 
     return;
-end
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/QuartyzUwU/scripts/main/Blox%20Fruits/defaults/loader.luau"))()
